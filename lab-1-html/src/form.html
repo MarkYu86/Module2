@@ -6,15 +6,53 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <!-- works like <a href="/index.html">Home</a> -->
-      <a href="index.html">Home</a>
-    </nav>
-  </header>
+<form method="POST" action="http://127.0.0.1:5500/form.html">
+  <div>
+    <label>First Name:</label>
+    <input type="text">
+  </div>
 
-  <main>
-  </main>
+  <div>
+    <lable>Last Name:</lable>
+    <input type="text">
+  </div>
+  
+  <div>
+    <label>Favourite Coding Language:</label>
+    <label name="fav_language" value="HTML">HTML</label><input type="radio">
+    <label name="fav_language" value="CSS">CSS</label><input  type="radio">
+    <label name="fav_language" value="JavaScript">JavaScript</label><input type="radio">
+  </div>
+
+  <div>
+    <lable>Vehicle type:</lable>
+    <label>Car</label><input type="checkbox">
+    <label>Boat</label><input type="checkbox">
+    <label>Aircraft</label><input type="checkbox">
+  </div>
+
+  <div>
+  <label>Your Car Brand:</label>  
+   <select name="cars" id="cars">
+    <option value="Ford">Ford</option>
+    <option value="Toyota">Toyota</option>
+    <option value="Honda">Honda</option>
+  </select>
+  </div>
+
+
+    <button type="submit">Submit form</button>
+
+
+<header>
+  <nav>
+    <!-- works like <a href="/index.html">Home</a> -->
+    <a href="index.html">Home</a>
+  </nav>
+</header>
+
+<main>
+</main>
 
   <footer>Copyright &copy; 2024</footer>
 </body>
