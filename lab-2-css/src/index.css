@@ -1,16 +1,70 @@
 /* I. Selectors */
 /* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
-
+article{
+    margin: 20px 0;
+padding: 20px;
+border: 1px solid black;
+}
+.style-me1{
+ color:red;
+}
+#style-me2{
+    color:blue;
+}
+.style-me1, #style-me2{
+    color:purple;
+}
 /* Put styles for questions 2.1 and 2.2 here */
-
+.my-descendants-are-styled p{
+    background-color: red;
+}
+.my-children-are-styled > p {
+    background-color: lightgreen;
+}
 
 /* II. Box model and common properties */
 /* Put styles for questions 1-8 here */
-
-
+.box{
+    background-color: yellowgreen;
+    margin: 10px 15px 20px 25px;
+    padding:5px 10px 15px;
+    margin: 1.5em;
+    padding: 1.2rem;
+    width:600px;
+    height: 10vh !important;
+    border-top: 10px solid rgba(186, 240, 106, 0.734);
+    box-sizing:border-box;
+    box-sizing: content-box;
+    border-radius: 15px;
+    border-radius: 1.2em;
+    border-radius: 50% 50%;
+    overflow:auto;
+    overflow-y: scroll;
+    outline: 10px solid black;
+    padding: 100px;
+    background-image: url("/lab-2-css/assets/images/img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /* III. Positioning */
 /* Put styles for questions 1-3 here */
-
+.position-absolute{
+    position:absolute;
+    bottom: 90%;
+    left: 300px;
+    right: 300px;
+    background-color: bisque;
+}
+.position-relative {
+    position: relative;
+    background-color: blue;
+}
+.position-sticky{
+    position: sticky;
+    background-color: brown;
+    top:0px;
+}
 
 /* IV. Styling text */
 /* Put styles for questions 1-10 here */
