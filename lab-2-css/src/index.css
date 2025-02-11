@@ -112,5 +112,4 @@ a:visited{
 .fluid-col{
     display:inline-block;
     width: calc(50% - 100px);
-
 }
