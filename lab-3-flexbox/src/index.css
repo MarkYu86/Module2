@@ -5,7 +5,59 @@ body {
 
 a {
     text-decoration: none;
-    color: purple;
+    color:black;
+    font: weight 450px;;
+}
+.flex-container{
+    display:flex;
+}
+.flex-item-1{
+    flex:1;
+}
+.flex-item-2{
+    flex:2;
+}
+.flex-item-3{
+    flex:3;
+}
+.flex-item-4{
+    flex:4;
+}
+.flex-center{
+    justify-content:center;
+    align-items:center;
+    justify-content: left;
+    justify-content: right;
+}
+.flex-basis-item-50{
+    flex-basis: 50%;
+    flex-basis: 25%;
+}
+.flex-wrap{
+    flex-wrap: wrap-reverse;
+    flex-wrap:wrap;
+}
+.flex-container{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction:row-reverse;
+    flex-direction:row;
+}
+.flex-menu{
+    display:flex;
+    justify-content:right;
+    justify-content: center;
+}
+/* do sth here to remove the space on left menu */
+.flex-menu .background-3{ 
+    border-right:#68B0AB solid 2px;
+    list-style-type:none;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-grow:1;
+}
+.flex-menu .fourth-item{
+    order:1;
 }
 
 .background-1 {
